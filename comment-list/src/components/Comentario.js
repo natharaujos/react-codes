@@ -6,11 +6,6 @@ import './Comentario.css';
 import imagemUsuario from './user.png';
 
 const Comentario = (props) => {
-    // const estilo = {
-    //     color: 'red',
-    //     padding: '10px',
-    //     fontSize: '30px'
-    // }
 
     return <div className="comentario">
         <img className="avatar" src={imagemUsuario} alt={props.nome}/>
