@@ -71,7 +71,7 @@ class App extends Component {
           </Comentario>
         ))}
 
-        <form method="post" onSubmit={this.adicionarComentario}>
+        <form method="post" onSubmit={this.adicionarComentario} className="novo_comentario">
           <h2>Adicionar Comentário</h2>
           <div>
             <input
@@ -79,6 +79,7 @@ class App extends Component {
               name="nome"
               value={this.state.novoComentario.nome}
               onChange={this.digitandoValor}
+              required
               placeholder="Digite seu nome"/>
           </div>
           <div>
@@ -87,6 +88,7 @@ class App extends Component {
               name="email"
               value={this.state.novoComentario.email} 
               onChange={this.digitandoValor}
+              required
               placeholder="Digite seu email"/>
           </div>
           <div>
@@ -95,6 +97,7 @@ class App extends Component {
               value={this.state.novoComentario.mensagem}
               onChange={this.digitandoValor}
               rows="4" 
+              required
               placeholder="Digite sua mensagem" />
           </div>
           <button type="submit">Adiconar Comentário</button>
