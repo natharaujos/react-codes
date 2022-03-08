@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-
-import AdicionarUsuario from "../AdicionarUsuario/AdicionarUsuario";
 import Usuario from "../Usuario/Usuario";
 
 function Usuarios(props) {
@@ -21,10 +19,6 @@ function Usuarios(props) {
       });
   }, []);
 
-  const adicionarUsuario = (usuario) => {
-    setUsuarios((usuariosAtuais) => [...usuariosAtuais, usuario]);
-  };
-
   const removerUsuario = (usuario) => {
     if (
       window.confirm(
@@ -43,8 +37,6 @@ function Usuarios(props) {
 
   return (
     <>
-      <AdicionarUsuario adicionarUsuario={adicionarUsuario} />
-
       {usuarios.map((usuario) => (
         <Usuario
           key={usuario.id}
