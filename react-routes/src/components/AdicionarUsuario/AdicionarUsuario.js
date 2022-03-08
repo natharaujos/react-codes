@@ -20,13 +20,14 @@ function AdicionarUsuario() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(usuario),
-    })
-      .then((resposta) => resposta.json())
-      .then((dados) => {
+    }).then((resposta) => {
+      if (resposta.ok) {
         setNome("");
         setSobrenome("");
         setEmail("");
-      });
+        alert("Usuário cadastrado com sucesso!");
+      }
+    });
   };
   return (
     <div className="AdicionarUsuario">
