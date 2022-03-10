@@ -4,7 +4,7 @@ import AdicionaFruta from "./AdicionaFruta";
 import { useSelector } from "react-redux";
 
 const ListaFrutas = () => {
-  const frutas = useSelector((state) => state.frutaReducers.frutas);
+  const frutas = useSelector((state) => state.frutasReducers.frutas);
 
   return (
     <>
