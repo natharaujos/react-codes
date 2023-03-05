@@ -240,28 +240,4 @@
       </li>
     </ul>
   </li>
-  <li>
-    <code><span>RHF-Example (React-Hook-Form Example Project):</span></code>
-    <ul>
-      <li>
-        Descrição: Projeto que explora o uso da biblioteca React-Hook-Form para
-        lidar com formulários em uma aplicação React.
-      </li>
-      <li>Tecnologias utilizadas: React, React-Hook-Form</li>
-      <li>
-        Funcionalidades:
-        <ul>
-          <li>
-            Criação de um formulário com campos de entrada de texto, seleção e
-            caixas de seleção.
-          </li>
-          <li>Validação de entrada de formulário usando a biblioteca Yup.</li>
-          <li>
-            Manipulação de eventos de formulário usando os hooks disponíveis no
-            React-Hook-Form.
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
 </div>
