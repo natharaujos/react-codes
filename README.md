@@ -8,7 +8,6 @@
 
 <div class="markdown prose w-full break-words dark:prose-invert light">
     <code><span>Authentication-Login:</span></code>
-  <li>
     <ul>
       <li>
         Descrição: Projeto de autenticação de login que permite que os usuários
@@ -32,7 +31,6 @@
         </ul>
       </li>
     </ul>
-  </li>
   <li>
     <code><span>Comment-List:</span></code>
     <ul>
