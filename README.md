@@ -7,6 +7,7 @@
 ### Descrição
 
 <div class="markdown prose w-full break-words dark:prose-invert light">
+    <li>
     <code><span>Authentication-Login:</span></code>
     <ul>
       <li>
@@ -31,6 +32,7 @@
         </ul>
       </li>
     </ul>
+    </li>
   <li>
     <code><span>Comment-List:</span></code>
     <ul>
