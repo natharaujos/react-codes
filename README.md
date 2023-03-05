@@ -2,7 +2,7 @@
 
 ## Documentação
 
-<>Repositório para registrar alguns código feitos em <code><span>react.js</span></code> com o intuito de praticar alguns conceitos.</p>
+<p>Repositório para registrar alguns código feitos em <code><span>react.js</span></code> com o intuito de praticar alguns conceitos.</p>
 
 ### Descrição
 
